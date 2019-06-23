@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "73359688-stock-vector-delicious-vegetarian-porridge-porridge-for-vegetarians-blueberry-vegetarian-dishes-single-icon-in-ca.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "73359688-stock-vector-delicious-vegetarian-porridge-porridge-for-vegetarians-blueberry-vegetarian-dishes-single-icon-in-ca-1.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "73359688-stock-vector-delicious-vegetarian-porridge-porridge-for-vegetarians-blueberry-vegetarian-dishes-single-icon-in-ca-2.jpg",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

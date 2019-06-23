@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "kisspng-fruit-salad-frutti-di-bosco-clip-art-exquisite-fruit-salad-5a72d0de5c3bc1.0085044715174740143778.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "kisspng-fruit-salad-frutti-di-bosco-clip-art-exquisite-fruit-salad-5a72d0de5c3bc1.0085044715174740143778-1.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "kisspng-fruit-salad-frutti-di-bosco-clip-art-exquisite-fruit-salad-5a72d0de5c3bc1.0085044715174740143778-2.jpg",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

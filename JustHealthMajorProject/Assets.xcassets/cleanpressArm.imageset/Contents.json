@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "kisspng-exercise-physical-fitness-weight-training-clip-art-5ae51c23354c99.2094092715249643872183.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "kisspng-exercise-physical-fitness-weight-training-clip-art-5ae51c23354c99.2094092715249643872183-1.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "kisspng-exercise-physical-fitness-weight-training-clip-art-5ae51c23354c99.2094092715249643872183-2.jpg",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

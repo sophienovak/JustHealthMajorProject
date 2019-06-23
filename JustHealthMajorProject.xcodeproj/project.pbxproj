@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA4E9A502276268800F39C10 /* AbsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E9A4F2276268800F39C10 /* AbsTableViewController.swift */; };
+		EA4E9A5222762D9F00F39C10 /* AbsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E9A5122762D9F00F39C10 /* AbsTableViewCell.swift */; };
+		EA4E9A542276330700F39C10 /* ArmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E9A532276330700F39C10 /* ArmTableViewController.swift */; };
+		EA4E9A5622763A8A00F39C10 /* ArmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E9A5522763A8A00F39C10 /* ArmTableViewCell.swift */; };
+		EA5B68372273A69D007A8BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B68362273A69D007A8BCD /* AppDelegate.swift */; };
+		EA5B68392273A69D007A8BCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B68382273A69D007A8BCD /* ViewController.swift */; };
+		EA5B683C2273A69D007A8BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5B683A2273A69D007A8BCD /* Main.storyboard */; };
+		EA5B683F2273A69D007A8BCD /* JustHealthMajorProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA5B683D2273A69D007A8BCD /* JustHealthMajorProject.xcdatamodeld */; };
+		EA5B68412273A69D007A8BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5B68402273A69D007A8BCD /* Assets.xcassets */; };
+		EA5B68442273A69D007A8BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5B68422273A69D007A8BCD /* LaunchScreen.storyboard */; };
+		EA5B684F2273A69D007A8BCD /* JustHealthMajorProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B684E2273A69D007A8BCD /* JustHealthMajorProjectTests.swift */; };
+		EA5B685A2273A69D007A8BCD /* JustHealthMajorProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B68592273A69D007A8BCD /* JustHealthMajorProjectUITests.swift */; };
+		EAF7960C2278D5920010A104 /* BreakfastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7960B2278D5920010A104 /* BreakfastTableViewController.swift */; };
+		EAF7960E2278E03C0010A104 /* BreakfastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7960D2278E03C0010A104 /* BreakfastTableViewCell.swift */; };
+		EAF796102278E5270010A104 /* LunchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7960F2278E5270010A104 /* LunchTableViewController.swift */; };
+		EAF796122278EC850010A104 /* LunchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF796112278EC850010A104 /* LunchTableViewCell.swift */; };
+		EAF796142278F0160010A104 /* SnackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF796132278F0160010A104 /* SnackTableViewController.swift */; };
+		EAF796162278F6B00010A104 /* SnackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF796152278F6B00010A104 /* SnackTableViewCell.swift */; };
+		EAFB04E52276400200EE34F2 /* LegTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFB04E42276400200EE34F2 /* LegTableViewController.swift */; };
+		EAFB04E7227645C900EE34F2 /* LegTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFB04E6227645C900EE34F2 /* LegTableViewCell.swift */; };
+		EAFB04F3227869CF00EE34F2 /* FoodDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFB04F2227869CF00EE34F2 /* FoodDiaryViewController.swift */; };
+		EAFB04F522786A1A00EE34F2 /* ReadFoodDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFB04F422786A1A00EE34F2 /* ReadFoodDiaryViewController.swift */; };
+		EAFB04F822786BD800EE34F2 /* BreakfastNotes+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFB04F622786BD800EE34F2 /* BreakfastNotes+CoreDataClass.swift */; };
+		EAFB04F922786BD800EE34F2 /* BreakfastNotes+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFB04F722786BD800EE34F2 /* BreakfastNotes+CoreDataProperties.swift */; };
+		EAFB04FC2278770200EE34F2 /* LunchNotes+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFB04FA2278770200EE34F2 /* LunchNotes+CoreDataClass.swift */; };
+		EAFB04FD2278770200EE34F2 /* LunchNotes+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFB04FB2278770200EE34F2 /* LunchNotes+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA5B684B2273A69D007A8BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA5B682B2273A69D007A8BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA5B68322273A69D007A8BCD;
+			remoteInfo = JustHealthMajorProject;
+		};
+		EA5B68562273A69D007A8BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA5B682B2273A69D007A8BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA5B68322273A69D007A8BCD;
+			remoteInfo = JustHealthMajorProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA4E9A4F2276268800F39C10 /* AbsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsTableViewController.swift; sourceTree = "<group>"; };
+		EA4E9A5122762D9F00F39C10 /* AbsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsTableViewCell.swift; sourceTree = "<group>"; };
+		EA4E9A532276330700F39C10 /* ArmTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmTableViewController.swift; sourceTree = "<group>"; };
+		EA4E9A5522763A8A00F39C10 /* ArmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmTableViewCell.swift; sourceTree = "<group>"; };
+		EA5B68332273A69D007A8BCD /* JustHealthMajorProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustHealthMajorProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5B68362273A69D007A8BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA5B68382273A69D007A8BCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA5B683B2273A69D007A8BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA5B683E2273A69D007A8BCD /* JustHealthMajorProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JustHealthMajorProject.xcdatamodel; sourceTree = "<group>"; };
+		EA5B68402273A69D007A8BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA5B68432273A69D007A8BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA5B68452273A69D007A8BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5B684A2273A69D007A8BCD /* JustHealthMajorProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustHealthMajorProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5B684E2273A69D007A8BCD /* JustHealthMajorProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustHealthMajorProjectTests.swift; sourceTree = "<group>"; };
+		EA5B68502273A69D007A8BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5B68552273A69D007A8BCD /* JustHealthMajorProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustHealthMajorProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5B68592273A69D007A8BCD /* JustHealthMajorProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustHealthMajorProjectUITests.swift; sourceTree = "<group>"; };
+		EA5B685B2273A69D007A8BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF7960B2278D5920010A104 /* BreakfastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastTableViewController.swift; sourceTree = "<group>"; };
+		EAF7960D2278E03C0010A104 /* BreakfastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastTableViewCell.swift; sourceTree = "<group>"; };
+		EAF7960F2278E5270010A104 /* LunchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchTableViewController.swift; sourceTree = "<group>"; };
+		EAF796112278EC850010A104 /* LunchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchTableViewCell.swift; sourceTree = "<group>"; };
+		EAF796132278F0160010A104 /* SnackTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackTableViewController.swift; sourceTree = "<group>"; };
+		EAF796152278F6B00010A104 /* SnackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackTableViewCell.swift; sourceTree = "<group>"; };
+		EAFB04E42276400200EE34F2 /* LegTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegTableViewController.swift; sourceTree = "<group>"; };
+		EAFB04E6227645C900EE34F2 /* LegTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegTableViewCell.swift; sourceTree = "<group>"; };
+		EAFB04F2227869CF00EE34F2 /* FoodDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDiaryViewController.swift; sourceTree = "<group>"; };
+		EAFB04F422786A1A00EE34F2 /* ReadFoodDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFoodDiaryViewController.swift; sourceTree = "<group>"; };
+		EAFB04F622786BD800EE34F2 /* BreakfastNotes+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BreakfastNotes+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EAFB04F722786BD800EE34F2 /* BreakfastNotes+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BreakfastNotes+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EAFB04FA2278770200EE34F2 /* LunchNotes+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LunchNotes+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EAFB04FB2278770200EE34F2 /* LunchNotes+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LunchNotes+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5B68302273A69D007A8BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5B68472273A69D007A8BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5B68522273A69D007A8BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA5B682A2273A69D007A8BCD = {
+			isa = PBXGroup;
+			children = (
+				EAFB04FA2278770200EE34F2 /* LunchNotes+CoreDataClass.swift */,
+				EAFB04FB2278770200EE34F2 /* LunchNotes+CoreDataProperties.swift */,
+				EAFB04F622786BD800EE34F2 /* BreakfastNotes+CoreDataClass.swift */,
+				EAFB04F722786BD800EE34F2 /* BreakfastNotes+CoreDataProperties.swift */,
+				EA5B68352273A69D007A8BCD /* JustHealthMajorProject */,
+				EA5B684D2273A69D007A8BCD /* JustHealthMajorProjectTests */,
+				EA5B68582273A69D007A8BCD /* JustHealthMajorProjectUITests */,
+				EA5B68342273A69D007A8BCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5B68342273A69D007A8BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B68332273A69D007A8BCD /* JustHealthMajorProject.app */,
+				EA5B684A2273A69D007A8BCD /* JustHealthMajorProjectTests.xctest */,
+				EA5B68552273A69D007A8BCD /* JustHealthMajorProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5B68352273A69D007A8BCD /* JustHealthMajorProject */ = {
+			isa = PBXGroup;
+			children = (
+				EAF796112278EC850010A104 /* LunchTableViewCell.swift */,
+				EAF7960F2278E5270010A104 /* LunchTableViewController.swift */,
+				EAF796152278F6B00010A104 /* SnackTableViewCell.swift */,
+				EAF796132278F0160010A104 /* SnackTableViewController.swift */,
+				EA5B68362273A69D007A8BCD /* AppDelegate.swift */,
+				EA5B68382273A69D007A8BCD /* ViewController.swift */,
+				EA5B683A2273A69D007A8BCD /* Main.storyboard */,
+				EA4E9A532276330700F39C10 /* ArmTableViewController.swift */,
+				EA4E9A4F2276268800F39C10 /* AbsTableViewController.swift */,
+				EAF7960D2278E03C0010A104 /* BreakfastTableViewCell.swift */,
+				EAFB04E6227645C900EE34F2 /* LegTableViewCell.swift */,
+				EAFB04F2227869CF00EE34F2 /* FoodDiaryViewController.swift */,
+				EAFB04F422786A1A00EE34F2 /* ReadFoodDiaryViewController.swift */,
+				EA5B68402273A69D007A8BCD /* Assets.xcassets */,
+				EAF7960B2278D5920010A104 /* BreakfastTableViewController.swift */,
+				EA4E9A5522763A8A00F39C10 /* ArmTableViewCell.swift */,
+				EAFB04E42276400200EE34F2 /* LegTableViewController.swift */,
+				EA4E9A5122762D9F00F39C10 /* AbsTableViewCell.swift */,
+				EA5B68422273A69D007A8BCD /* LaunchScreen.storyboard */,
+				EA5B68452273A69D007A8BCD /* Info.plist */,
+				EA5B683D2273A69D007A8BCD /* JustHealthMajorProject.xcdatamodeld */,
+			);
+			path = JustHealthMajorProject;
+			sourceTree = "<group>";
+		};
+		EA5B684D2273A69D007A8BCD /* JustHealthMajorProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B684E2273A69D007A8BCD /* JustHealthMajorProjectTests.swift */,
+				EA5B68502273A69D007A8BCD /* Info.plist */,
+			);
+			path = JustHealthMajorProjectTests;
+			sourceTree = "<group>";
+		};
+		EA5B68582273A69D007A8BCD /* JustHealthMajorProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B68592273A69D007A8BCD /* JustHealthMajorProjectUITests.swift */,
+				EA5B685B2273A69D007A8BCD /* Info.plist */,
+			);
+			path = JustHealthMajorProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA5B68322273A69D007A8BCD /* JustHealthMajorProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5B685E2273A69D007A8BCD /* Build configuration list for PBXNativeTarget "JustHealthMajorProject" */;
+			buildPhases = (
+				EA5B682F2273A69D007A8BCD /* Sources */,
+				EA5B68302273A69D007A8BCD /* Frameworks */,
+				EA5B68312273A69D007A8BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustHealthMajorProject;
+			productName = JustHealthMajorProject;
+			productReference = EA5B68332273A69D007A8BCD /* JustHealthMajorProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA5B68492273A69D007A8BCD /* JustHealthMajorProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5B68612273A69D007A8BCD /* Build configuration list for PBXNativeTarget "JustHealthMajorProjectTests" */;
+			buildPhases = (
+				EA5B68462273A69D007A8BCD /* Sources */,
+				EA5B68472273A69D007A8BCD /* Frameworks */,
+				EA5B68482273A69D007A8BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA5B684C2273A69D007A8BCD /* PBXTargetDependency */,
+			);
+			name = JustHealthMajorProjectTests;
+			productName = JustHealthMajorProjectTests;
+			productReference = EA5B684A2273A69D007A8BCD /* JustHealthMajorProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA5B68542273A69D007A8BCD /* JustHealthMajorProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5B68642273A69D007A8BCD /* Build configuration list for PBXNativeTarget "JustHealthMajorProjectUITests" */;
+			buildPhases = (
+				EA5B68512273A69D007A8BCD /* Sources */,
+				EA5B68522273A69D007A8BCD /* Frameworks */,
+				EA5B68532273A69D007A8BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA5B68572273A69D007A8BCD /* PBXTargetDependency */,
+			);
+			name = JustHealthMajorProjectUITests;
+			productName = JustHealthMajorProjectUITests;
+			productReference = EA5B68552273A69D007A8BCD /* JustHealthMajorProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA5B682B2273A69D007A8BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Sophie Novak";
+				TargetAttributes = {
+					EA5B68322273A69D007A8BCD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					EA5B68492273A69D007A8BCD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA5B68322273A69D007A8BCD;
+					};
+					EA5B68542273A69D007A8BCD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA5B68322273A69D007A8BCD;
+					};
+				};
+			};
+			buildConfigurationList = EA5B682E2273A69D007A8BCD /* Build configuration list for PBXProject "JustHealthMajorProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA5B682A2273A69D007A8BCD;
+			productRefGroup = EA5B68342273A69D007A8BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA5B68322273A69D007A8BCD /* JustHealthMajorProject */,
+				EA5B68492273A69D007A8BCD /* JustHealthMajorProjectTests */,
+				EA5B68542273A69D007A8BCD /* JustHealthMajorProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA5B68312273A69D007A8BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5B68442273A69D007A8BCD /* LaunchScreen.storyboard in Resources */,
+				EA5B68412273A69D007A8BCD /* Assets.xcassets in Resources */,
+				EA5B683C2273A69D007A8BCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5B68482273A69D007A8BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5B68532273A69D007A8BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5B682F2273A69D007A8BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4E9A5222762D9F00F39C10 /* AbsTableViewCell.swift in Sources */,
+				EA4E9A502276268800F39C10 /* AbsTableViewController.swift in Sources */,
+				EAF796162278F6B00010A104 /* SnackTableViewCell.swift in Sources */,
+				EA5B68392273A69D007A8BCD /* ViewController.swift in Sources */,
+				EAF7960C2278D5920010A104 /* BreakfastTableViewController.swift in Sources */,
+				EAF796142278F0160010A104 /* SnackTableViewController.swift in Sources */,
+				EA5B683F2273A69D007A8BCD /* JustHealthMajorProject.xcdatamodeld in Sources */,
+				EAFB04FC2278770200EE34F2 /* LunchNotes+CoreDataClass.swift in Sources */,
+				EAF796102278E5270010A104 /* LunchTableViewController.swift in Sources */,
+				EA4E9A542276330700F39C10 /* ArmTableViewController.swift in Sources */,
+				EA4E9A5622763A8A00F39C10 /* ArmTableViewCell.swift in Sources */,
+				EAF7960E2278E03C0010A104 /* BreakfastTableViewCell.swift in Sources */,
+				EAFB04E7227645C900EE34F2 /* LegTableViewCell.swift in Sources */,
+				EAFB04F522786A1A00EE34F2 /* ReadFoodDiaryViewController.swift in Sources */,
+				EAFB04E52276400200EE34F2 /* LegTableViewController.swift in Sources */,
+				EAF796122278EC850010A104 /* LunchTableViewCell.swift in Sources */,
+				EAFB04F822786BD800EE34F2 /* BreakfastNotes+CoreDataClass.swift in Sources */,
+				EAFB04F922786BD800EE34F2 /* BreakfastNotes+CoreDataProperties.swift in Sources */,
+				EAFB04F3227869CF00EE34F2 /* FoodDiaryViewController.swift in Sources */,
+				EAFB04FD2278770200EE34F2 /* LunchNotes+CoreDataProperties.swift in Sources */,
+				EA5B68372273A69D007A8BCD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5B68462273A69D007A8BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5B684F2273A69D007A8BCD /* JustHealthMajorProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5B68512273A69D007A8BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5B685A2273A69D007A8BCD /* JustHealthMajorProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA5B684C2273A69D007A8BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA5B68322273A69D007A8BCD /* JustHealthMajorProject */;
+			targetProxy = EA5B684B2273A69D007A8BCD /* PBXContainerItemProxy */;
+		};
+		EA5B68572273A69D007A8BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA5B68322273A69D007A8BCD /* JustHealthMajorProject */;
+			targetProxy = EA5B68562273A69D007A8BCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA5B683A2273A69D007A8BCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5B683B2273A69D007A8BCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA5B68422273A69D007A8BCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5B68432273A69D007A8BCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA5B685C2273A69D007A8BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA5B685D2273A69D007A8BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA5B685F2273A69D007A8BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JustHealthMajorProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sophienovak.JustHealthMajorProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA5B68602273A69D007A8BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JustHealthMajorProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sophienovak.JustHealthMajorProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA5B68622273A69D007A8BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JustHealthMajorProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sophienovak.JustHealthMajorProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustHealthMajorProject.app/JustHealthMajorProject";
+			};
+			name = Debug;
+		};
+		EA5B68632273A69D007A8BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JustHealthMajorProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sophienovak.JustHealthMajorProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustHealthMajorProject.app/JustHealthMajorProject";
+			};
+			name = Release;
+		};
+		EA5B68652273A69D007A8BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JustHealthMajorProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sophienovak.JustHealthMajorProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JustHealthMajorProject;
+			};
+			name = Debug;
+		};
+		EA5B68662273A69D007A8BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JustHealthMajorProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sophienovak.JustHealthMajorProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JustHealthMajorProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5B682E2273A69D007A8BCD /* Build configuration list for PBXProject "JustHealthMajorProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5B685C2273A69D007A8BCD /* Debug */,
+				EA5B685D2273A69D007A8BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5B685E2273A69D007A8BCD /* Build configuration list for PBXNativeTarget "JustHealthMajorProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5B685F2273A69D007A8BCD /* Debug */,
+				EA5B68602273A69D007A8BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5B68612273A69D007A8BCD /* Build configuration list for PBXNativeTarget "JustHealthMajorProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5B68622273A69D007A8BCD /* Debug */,
+				EA5B68632273A69D007A8BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5B68642273A69D007A8BCD /* Build configuration list for PBXNativeTarget "JustHealthMajorProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5B68652273A69D007A8BCD /* Debug */,
+				EA5B68662273A69D007A8BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA5B683D2273A69D007A8BCD /* JustHealthMajorProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA5B683E2273A69D007A8BCD /* JustHealthMajorProject.xcdatamodel */,
+			);
+			currentVersion = EA5B683E2273A69D007A8BCD /* JustHealthMajorProject.xcdatamodel */;
+			path = JustHealthMajorProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA5B682B2273A69D007A8BCD /* Project object */;
+}

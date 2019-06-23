@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "31-314197_blueberry-muffin-blueberry-muffins-transparent-background-clipart.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "31-314197_blueberry-muffin-blueberry-muffins-transparent-background-clipart-1.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "31-314197_blueberry-muffin-blueberry-muffins-transparent-background-clipart-2.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
